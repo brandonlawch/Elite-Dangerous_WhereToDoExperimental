@@ -260,6 +260,7 @@ int main() {
         }
         modulesToEngin.push_back({ inputEnum });
     }
+    cout << endl;
 
     while (!modulesToEngin.empty()) {
         vector<moduleTypes> modulesDoable = checking();
